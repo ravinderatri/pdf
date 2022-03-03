@@ -1,0 +1,311 @@
+  
+   .left{
+    width: 30%;
+    float: left;
+  }
+  .right{  
+   width:70%;
+   float: right;
+ }
+ .wrap{
+   z-index: 9999;
+ }
+ .modal-content{
+   background-color: #fff;
+ }
+ .pagin-wrap p{
+   color: #000;
+ }
+
+
+ .pusher3{
+ 
+background: rgb(255, 255, 255);
+  display: block;
+  /* margin: 0 auto;  */
+    padding: 0px 24px 20px;
+  /* padding: 10px 5px 3px 26px; */
+  margin-bottom: 4px;
+  box-shadow: 0 0 0.5px rgb(0 0 0 / 50%);
+  height: auto;  
+  box-sizing: border-box; 
+  font-size: 12px;
+  line-height: 20px;
+  min-height: 845px;
+}
+
+.pusher3 ul ul li,.pusher3 ol ul li{   
+margin-bottom: 5px;
+text-align: justify;
+}
+.pusher3 ul ul li p,.pusher3 ol ul li p{   
+margin-bottom: 0px; 
+}
+
+
+.pusher3 p, .pusher3 span, .pusher3 p ul li,.pusher3 p ul li div,.pusher3 p ol li div{
+font-size: 8px;
+line-height: 16px; 
+text-align: justify;
+word-break: break-word;
+overflow: hidden;
+}
+
+ 
+.pusher3 ul ul li p span,.pusher3 ol ul li p span {   
+margin-bottom: 0px;  
+font-size: 8px; 
+line-height: 16px;
+text-align: justify;
+/* word-break: break-word; */
+overflow: hidden;
+margin-bottom: 0px;
+}
+ 
+.pusher3 .resumeMake .resumeLeft .skill-line p span:nth-child(1) {  
+width:100%;
+display: inline-block;
+}
+ 
+.pusher3  .skill-line .language  {
+display: flex; 
+margin-bottom: 10px;
+}
+ 
+.pusher3  .skill-line .language span {
+width: 66px;
+line-height: 16px;
+/* word-break: break-all; */
+overflow: inherit;
+} 
+.pusher3 .skill-line .lang 
+{
+padding-left: 12px;
+} 
+.pusher3 .skill-line .lang span {
+width: 7px;
+height: 7px;
+border-radius: 7px;
+background-color: rgb(36, 35, 35);
+display: inline-block;
+margin-right: 5px;
+}
+ 
+.pusher3  .skill-line .progress {
+position: relative;
+height: 4px;
+display: block;
+width: 100%;
+background-color:rgb(172, 236, 230);
+border-radius: 2px;
+margin: 0.3rem 0 1rem 0;
+overflow: hidden;
+}  
+.pusher3  .skill-line .progress  {
+
+background-color: rgb(153, 153, 153);
+height: 6px;
+overflow: visible;
+} 
+.pusher3  .skill-line .progress .determinate  {
+position: absolute;
+background-color: inherit;
+top: 0;
+bottom: 0;
+background-color: rgb(34, 34, 34);
+-webkit-transition: width .3s linear;
+transition: width .3s linear;
+} 
+.pusher3 .resumeMake h1 
+{ 
+font-size: 15px;
+line-height: 20px;
+margin-bottom: 0px;
+padding: 5px 0px;
+text-transform: capitalize;
+} 
+.pusher3 p, .pusher3 .skill-line p, .pusher3 .skill-line p span, .pusher3 p ul li {
+
+font-size: 8px;
+  line-height: 18px;
+  margin-bottom: 4px;
+  text-align: justify;
+  word-break: break-word;
+  overflow: hidden;
+}
+ 
+.pusher3 .resumeLeft { 
+padding: 20px 0 30px -2px;
+   min-height:845px;  
+color: rgb(44, 43, 43); 
+overflow: hidden;
+} 
+.pusher3 .workExp .custom-content {
+  font-size: 8px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  padding: 0px 13px 0px 10px; 
+} 
+.pusher3 .workExp 
+{ 
+  min-height:845px;    
+padding: 0px 15px 40px 10px;
+ /* padding: 0px 19px; */
+} 
+.pusher3 .workExp 
+{ 
+padding: 0px 5px 40px 10px;
+min-height:845px;    
+ /* padding: 0px 19px; */
+}
+ 
+.pusher2 .skill-line 
+{ 
+padding: 0px 5px 0px 1px;
+}
+ 
+.pusher3 span.float-r {
+float: right;
+/* height: 0px; */
+}
+.pusher17 .workExp:after {
+position: absolute;
+content: '';
+top: 0px;
+right: 0px;
+border-right: 1.0999999999999943px solid 	rgb(76, 98, 119);
+height: 100%;
+}
+.pusher1  .resumeMake .skill-line h4{
+  padding: 6px 8px 0px;
+  font-size: 11px;
+  line-height: 10px;
+  margin-bottom: 0.4rem;
+  font-weight: 500; 
+
+} 
+.pusher3  .resumeMake .skill-line h4, 
+.pusher3  .workExp h4 {
+padding: 8px 0px 0px;
+font-size: 8px;
+  line-height: 18px;
+margin-bottom: 0.4rem;
+font-weight: 600;
+} 
+.pusher3  .resumeMake .custom-content-wrap  {
+border-bottom: 0.2px solid rgb(221, 221, 221);
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;  
+} 
+.pusher3  .address_bar ul {
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+} 
+.pusher3 .address_bar ul li a {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 8px;
+  line-height: 18px;
+text-align: left;
+display: flex;
+word-break: break-all;
+width: 100%;
+padding: 0;
+}  
+.pusher3 .address_bar ul li a i  {
+color: rgb(27, 74, 255);
+/* width: 21px;
+height: 20px; */
+font-size: 8px;
+  line-height: 18px;
+text-align: left;
+margin-bottom: 4px;
+margin-right: 7px;
+margin-top: 0px;
+ 
+} 
+.pusher3 .title_bar {
+background-color: rgb(42, 42, 43); 
+} 
+.pusher3 .address_bar ul li a i {
+color: rgb(2, 2, 2);
+font-size: 8px;
+line-height: 18px;
+} 
+.pusher3  .workExp {
+  min-height:845px;    
+background-color: rgb(255, 255, 255);
+}
+ 
+.pusher3 .title_bar  {
+color: rgb(255, 255, 255);
+padding: 4px 11px;
+border-radius: 3px;
+line-height: 18px;
+margin-top: 0px;
+margin-bottom: 17px;
+top: 5px;
+position: relative; 
+} 
+.pusher3  .resumeMake h6 {
+font-size: 12px;
+line-height: 13px;
+} 
+.pusher3 .address_bar ul li {
+display: inline-block;
+} 
+.pusher3  .resume-item-details img { 
+width: 106px;
+  height: 106px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-top: 8px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 15px;
+  display: block;
+  border-radius: 50%;
+} 
+.pusher3 .address_bar ul li a {
+font-size: 8px;
+  line-height: 18px;
+margin:3px 0;
+display: block;
+}
+.pusher3 .address_bar ul li a i { 
+margin-right: 8px; 
+}   
+.pusher3 .address_bar ul li { 
+margin-right: 15px; 
+} 
+* ul {
+margin-top: 0;
+margin-bottom: 0rem;
+padding-left: 0px;
+margin-left: 0px;
+list-style-type: none;
+}
+
+* ul ul{
+list-style-type: disc;
+margin-left: 11px;
+padding-left: 4px;
+}
+* ol{
+list-style-type: decimal;
+margin-left: 5px;
+padding-left: 0px;
+}
+* ul ol li{
+list-style-type: decimal;
+margin-left: 8px;
+padding-left: 5px;
+}
+.page {
+      width: 210mm;
+      min-height: 297mm;
+      padding: 20mm;
+      margin: 10mm auto; 
+      border-radius: 5px; 
+  }

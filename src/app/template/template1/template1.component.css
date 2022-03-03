@@ -1,0 +1,379 @@
+.left {
+  width: 30%;
+  float: left;
+}
+.right {
+  width: 70%;
+  float: right;
+}
+.wrap {
+  z-index: 9999;
+}
+.modal-content {
+  background-color: #fff !important;
+}
+.pagin-wrap p {
+  color: #000;
+}
+.A4 {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0 auto 0.5cm;
+  padding: 10px 25px;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  overflow-y: scroll;
+  box-sizing: border-box;
+  font-size: 12pt;
+  background: red;
+  color: #fff;
+}
+
+@media print {
+  .page-break {
+      display: block;
+      page-break-before: always;
+  }
+}
+
+@media print {
+  body {
+      margin: 0;
+      padding: 0;
+  }
+  .A4 {
+      box-shadow: none;
+      margin: 0;
+      width: auto;
+      height: auto;
+  }
+  .noprint {
+      display: none;
+  }
+  .enable-print {
+      display: block;
+  }
+}
+
+
+.pusher1 {
+  background: rgb(255, 255, 255);
+  display: block;
+  /* margin: 0 auto;  */
+  padding: 0 24px 20px;
+  /* padding: 10px 5px 3px 26px; */
+  margin-bottom: 4px;
+  box-shadow: 0 0 0.5px rgb(0 0 0 / 50%);
+  height: auto;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 20px;
+  min-height: 845px;
+}
+
+.pusher1 ul ul li,
+.pusher1 ol ul li {
+  margin-bottom: 5px;
+  text-align: justify;
+}
+.pusher1 ul ul li p,
+.pusher1 ol ul li p {
+  margin-bottom: 0;
+}
+
+
+.pusher1 p,
+.pusher1 span,
+.pusher1 p ul li,
+.pusher1 p ul li div,
+.pusher1 p ol li div {
+  font-size: 8px;
+  line-height: 16px;
+  text-align: justify;
+  word-break: break-word !important;
+  overflow: hidden;
+}
+
+
+.pusher1 .custom-content ul ul li p span,
+.pusher1 .custom-content ol ul li p span {
+  margin-bottom: 0 !important;
+  font-size: 8px;
+  line-height: 16px;
+  text-align: justify;
+  /* word-break: break-word !important; */
+  overflow: hidden;
+  margin-bottom: 0 !important;
+}
+
+.pusher1 .resumeMake .resumeLeft .skill-line p span:nth-child(1) {
+  width: 100%;
+  display: inline-block;
+}
+
+.pusher1 .skill-line .language {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.pusher1 .skill-line .language span {
+  width: 66px;
+  line-height: 16px;
+  /* word-break: break-all !important; */
+  overflow: inherit;
+}
+.pusher1 .skill-line .lang {
+  padding-left: 12px !important;
+}
+.pusher1 .skill-line .lang span {
+  width: 7px;
+  height: 7px;
+  border-radius: 7px;
+  background-color: rgb(36, 35, 35);
+  display: inline-block;
+  margin-right: 5px;
+}
+.pusher1 .skill-line .progress {
+  position: relative;
+  height: 4px;
+  display: block;
+  width: 100%;
+  background-color: rgb(172, 236, 230);
+  border-radius: 2px;
+  margin: 0.3rem 0 1rem;
+  overflow: hidden;
+}
+.pusher1 .skill-line .progress {
+
+  background-color: rgb(153, 153, 153);
+  height: 6px;
+  overflow: visible;
+}
+.pusher1 .skill-line .progress .determinate {
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(34, 34, 34);
+  -webkit-transition: width 0.3s linear;
+  transition: width 0.3s linear;
+}
+
+.pusher1 .resumeMake h1 {
+  font-size: 15px !important;
+  line-height: 20px;
+  margin-bottom: 0;
+  padding: 5px 0;
+  text-transform: capitalize;
+}
+
+.pusher1 p,
+.pusher1 .skill-line p,
+.pusher1 .skill-line p span,
+.pusher1 p ul li {
+
+  font-size: 8px;
+  line-height: 18px;
+  margin-bottom: 4px;
+  text-align: justify;
+  word-break: break-word !important;
+  overflow: hidden;
+}
+
+
+.a4 {
+  margin: 400px;
+}
+/* header,footer{
+padding: 40px !important;
+} */
+.pusher1 .resumeLeft {
+  padding: 20px 0 30px -2px !important;
+  min-height: 845px !important;
+
+  color: rgb(44, 43, 43);
+  /* page-break-inside: avoid;
+page-break-before: always !important;
+word-wrap: break-word !important;   */
+  overflow: hidden !important;
+}
+.pusher1 .workExp .custom-content {
+  font-size: 8px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 13px 0 10px !important;
+}
+.pusher1 .skill-line {
+  padding: 0 5px 0 1px;
+}
+
+.pusher9 .skill-line {
+  padding: 0 5px 0 7px;
+}
+
+
+.pusher5 .skill-line,
+.pusher14 .skill-line {
+  padding: 0 8px 0 0;
+}
+.pusher8 .skill-line {
+  padding: 0 11px 0 12px;
+}
+
+.pusher1 span.float-r {
+  float: right !important;
+  /* height: 0px; */
+}
+
+.pusher1 .resumeMake .skill-line h4 {
+  padding: 6px 8px 0;
+  font-size: 11px;
+  line-height: 10px;
+  margin-bottom: 0.4rem !important;
+  font-weight: 500 !important;
+
+}
+.pusher1 .workExp h4 {
+  padding: 8px 0 0;
+  font-size: 8px;
+  line-height: 18px;
+  margin-bottom: 0.4rem !important;
+  font-weight: 600 !important;
+}
+.pusher1 h1 {
+  padding: 5px 0 5px 9px;
+  color: rgb(255, 255, 255) !important;
+}
+.pusher1 .resumeMake .custom-content-wrap {
+  border-bottom: 0.2px solid rgb(221, 221, 221) !important;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+.pusher1 .address_bar ul {
+  list-style-type: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.pusher1 .title_bar,
+.pusher1 .workExp h4 {
+  background-color: rgb(251, 209, 72) !important;
+}
+.pusher1 .resumeMake h4,
+.pusher1 .workExp {
+  background-color: rgb(0, 0, 0);
+}
+
+.pusher1 .resumeMake h4,
+.pusher1 .workExp {
+  color: rgb(255, 255, 255);
+}
+
+.pusher1 .resumeMake h6 {
+  color: rgb(240, 191, 6);
+}
+.pusher1 .resumeLeft {
+  background-color: rgb(255, 197, 1);
+}
+
+.pusher1 .workExp h4 {
+  color: rgb(2, 2, 2);
+  color: rgb(2, 2, 2);
+  padding: 4px !important;
+  page-break-after: avoid;
+  overflow: hidden;
+  margin-bottom: 12px !important;
+  page-break-after: avoid;
+  overflow: hidden;
+}
+/* background----------------------- */
+.pusher1 .title_bar {
+  color: rgb(255, 255, 255);
+  padding: 4px 11px;
+  border-radius: 3px;
+  line-height: 18px;
+  margin-top: 0 !important;
+  margin-bottom: 17px !important;
+  top: 5px;
+  position: relative;
+}
+
+.pusher1 .resumeMake h6 {
+  font-size: 12px !important;
+  line-height: 13px;
+}
+.pusher1 .address_bar ul li {
+  display: block;
+}
+.pusher1 .resume-item-details img {
+  width: 106px;
+  height: 106px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin: auto auto 15px;
+  overflow: hidden;
+  display: block;
+  border-radius: 50% !important;
+}
+.pusher1 .address_bar ul li a {
+  color: rgb(225, 225, 225);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 8px;
+  line-height: 18px;
+  text-align: left;
+  display: flex !important;
+  word-break: break-all;
+  width: 100%;
+  padding: 0 !important;
+}
+.pusher1 .address_bar ul li a i {
+  color: rgb(251 209 72);
+  background-color: rgb(255, 255, 255);
+  width: 24px;
+  height: 20px;
+  border-left: 3px solid rgb(251 209 72);
+  padding: 3px 4px;
+  height: 23px !important;
+  font-size: 12px !important;
+  text-align: left;
+  margin-bottom: 4px !important;
+  margin-right: 9px;
+  margin-top: 2px !important;
+  line-height: 20px;
+
+}
+/* .a4 .pusher1 .resumeLeft,.A4 .pusher1 .resumeLeft,
+.page .pusher1 .resumeLeft,.A4 .page .pusher1 .resumeLeft{
+min-height: 845px !important;
+} */
+* ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none;
+}
+
+* ul ul {
+  list-style-type: disc;
+  margin-left: 11px;
+  padding-left: 4px;
+}
+* ol {
+  list-style-type: decimal;
+  margin-left: 5px;
+  padding-left: 0;
+}
+* ul ol li {
+  list-style-type: decimal;
+  margin-left: 8px;
+  padding-left: 5px;
+}
+.page {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20mm;
+  margin: 10mm auto;
+  border-radius: 5px;
+}

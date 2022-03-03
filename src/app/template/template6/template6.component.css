@@ -1,0 +1,280 @@
+   
+   .left{
+    width: 30%;
+    float: left;
+  }
+  .right{  
+   width:70%;
+   float: right;
+ }
+ .wrap{
+   z-index: 9999;
+ }
+ .modal-content{
+   background-color: #fff;
+ }
+ .pagin-wrap p{
+   color: #000;
+ }
+
+
+ 
+    .pusher6  {
+ 
+background: rgb(255, 255, 255);
+  display: block;
+  /* margin: 0 auto;  */
+    padding: 0px 24px 20px; 
+  margin-bottom: 4px;
+  box-shadow: 0 0 0.5px rgb(0 0 0 / 50%);
+  height: auto;  
+  box-sizing: border-box; 
+  font-size: 12px;
+  line-height: 20px;
+  min-height: 845px; 
+}
+/* .pusher1 .resumeLeft .leftWrap */ 
+.pusher6 ul ul li,.pusher6 ol ul li {   
+margin-bottom: 5px;
+text-align: justify;
+} 
+.pusher6 ul ul li p,.pusher6 ol ul li p {   
+margin-bottom: 0px; 
+}
+ 
+.pusher6 p, .pusher6 span, .pusher6 p ul li,.pusher6 p ul li div,.pusher6 p ol li div  {
+font-size: 8px;
+line-height: 16px; 
+text-align: justify;
+word-break: break-word;
+overflow: hidden;
+}
+
+ 
+.pusher6 ul ul li p span,.pusher6 ol ul li p span {   
+margin-bottom: 0px;  
+font-size: 8px; 
+line-height: 16px;
+text-align: justify;
+/* word-break: break-word; */
+overflow: hidden;
+margin-bottom: 0px;
+}
+ 
+.pusher6 .resumeMake .resumeLeft .skill-line p span:nth-child(1) {  
+width:100%;
+display: inline-block;
+}
+ 
+.pusher6  .skill-line .language  {
+display: flex; 
+margin-bottom: 10px;
+}
+ 
+.pusher6  .skill-line .language span  {
+width: 66px;
+line-height: 16px;
+/* word-break: break-all; */
+overflow: inherit;
+} 
+.pusher6 .skill-line .lang 
+{
+padding-left: 12px;
+} 
+.pusher6 .skill-line .lang span {
+width: 7px;
+height: 7px;
+border-radius: 7px;
+background-color: rgb(36, 35, 35);
+display: inline-block;
+margin-right: 5px;
+} 
+.pusher6  .skill-line .progress   {
+position: relative;
+height: 4px;
+display: block;
+width: 100%;
+background-color:rgb(172, 236, 230);
+border-radius: 2px;
+margin: 0.3rem 0 1rem 0;
+overflow: hidden;
+} 
+.pusher6  .skill-line .progress {
+
+background-color: rgb(153, 153, 153);
+height: 6px;
+overflow: visible;
+} 
+.pusher6  .skill-line .progress .determinate  {
+position: absolute;
+background-color: inherit;
+top: 0;
+bottom: 0;
+background-color: rgb(34, 34, 34);
+-webkit-transition: width .3s linear;
+transition: width .3s linear;
+}
+ 
+.pusher6 .resumeMake h1 
+{ 
+font-size: 15px;
+line-height: 20px;
+margin-bottom: 0px;
+padding: 5px 0px;
+text-transform: capitalize;
+} 
+.pusher6 p, .pusher6 .skill-line p, .pusher6 .skill-line p span, .pusher6 p ul li {
+
+font-size: 8px;
+  line-height: 18px;
+  margin-bottom: 4px;
+  text-align: justify;
+  word-break: break-word;
+  overflow: hidden;
+}
+ 
+.pusher6 .resumeLeft{
+padding: 10px 21px; 
+color: rgb(44, 43, 43);
+background-color:  rgb(255, 255, 255);
+}
+ 
+.pusher6 .resumeLeft .address_bar ul li a  {
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 11px;
+line-height: 20px;
+display: contents;
+
+
+padding: 0px;
+}
+.pusher6 .resumeLeft .header-cen{
+text-align: center;
+margin-top: 4px;
+margin: auto;
+}
+.pusher6 .resumeLeft h1 {
+font-size: 24px;
+color:  rgb(255, 255, 255);
+display: inline-block;
+border: 1px solid rgb(193, 211, 65);
+padding: 5px 20px;
+}
+.pusher6 .resumeLeft{
+background-color:	rgb(74, 74, 74);
+} 
+.pusher6 .workExp 
+{ 
+  min-height:845px;    
+padding: 0px 15px 40px 10px;
+ /* padding: 0px 19px; */
+} 
+.pusher6 .workExp 
+{ 
+padding: 0px 5px 40px 10px;
+min-height:845px;    
+ /* padding: 0px 19px; */
+}
+ 
+.pusher6 .skill-line 
+{ 
+padding: 0px 5px 0px 1px;
+}
+ 
+.pusher6 span.float-r {
+float: right;
+/* height: 0px; */
+} 
+.pusher6  .resumeMake .skill-line h4,
+.pusher6  .workExp h4 {
+padding: 8px 0px 0px;
+font-size: 8px;
+  line-height: 18px;
+margin-bottom: 0.4rem;
+font-weight: 600;
+} 
+.pusher6  .resumeMake .custom-content-wrap  {
+border-bottom: 0.2px solid rgb(221, 221, 221);
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;  
+} 
+.pusher6  .address_bar ul  {
+list-style-type: none;
+padding: 0px;
+margin: 0px; 
+}
+.pusher6 .address,.pusher15 .address{
+background: 	rgb(66, 70, 82);
+padding: 8px 15px;
+} 
+.pusher6 .address_bar ul li {
+display: inline;
+margin-right:3px;
+}
+.pusher6 .address_bar ul li a i {
+padding-right: 5px;
+}
+.pusher6 .address_bar ul li a{
+ margin-right: 5px;
+} 
+.pusher6 .address_bar ul li a:hover 
+{
+color:rgb(255, 255, 255);
+} 
+.pusher6 .address_bar ul li a i {
+color: rgb(2, 2, 2);
+font-size: 8px;
+line-height: 18px;
+} 
+.pusher6  .workExp {
+  min-height:845px;    
+background-color: rgb(255, 255, 255);
+} 
+.pusher6  .workExp {
+min-height:842px;
+} 
+.pusher6 .title_bar  {
+color: rgb(255, 255, 255);
+padding: 4px 11px;
+border-radius: 3px;
+line-height: 18px;
+margin-top: 0px;
+margin-bottom: 17px;
+top: 5px;
+position: relative; 
+} 
+.pusher6  .resumeMake h6 {
+font-size: 12px;
+line-height: 13px;
+} 
+* ul {
+margin-top: 0;
+margin-bottom: 0rem;
+padding-left: 0px;
+margin-left: 0px;
+list-style-type: none;
+}
+
+* ul ul{
+list-style-type: disc;
+margin-left: 11px;
+padding-left: 4px;
+}
+* ol{
+list-style-type: decimal;
+margin-left: 5px;
+padding-left: 0px;
+}
+* ul ol li{
+list-style-type: decimal;
+margin-left: 8px;
+padding-left: 5px;
+}
+.page {
+      width: 210mm;
+      min-height: 297mm;
+      padding: 20mm;
+      margin: 10mm auto; 
+      border-radius: 5px; 
+  }
